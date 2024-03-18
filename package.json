@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon task3.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "devDependencies": {
     "nodemon": "^3.1.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
 }
